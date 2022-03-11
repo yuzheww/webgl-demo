@@ -88,14 +88,14 @@
 
         /*=================5. enable vertex attributes=======================*/
         // (1) Get the attribute location
-        var coord = gl.getAttribLocation(shaderProgram, "coordinates");
 
+        
         // (2) Point the attribute to a vertex buffer object
-        gl.vertexAttribPointer(coord, 3, gl.FLOAT, false, 0, 0);
 
+        
         // (3) Enable the attribute
-        gl.enableVertexAttribArray(coord);
 
+        
 
         /*=========6. Drawing the triangle===========*/
         // Clear the canvas
